@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "email": "jonaAdmin@gmail.com",
+      "password": "$2a$10$fFZDzqVJF7m8SHw9u4iyG.QjHFfPCH.7c2MkBYp.OjdJJ63QNVtBW",
+      "type": "admin",
+      "id": 1
+    },
+    {
+      "email": "cat@gmail.com",
+      "password": "$2a$10$dHoJiNnArsKGqO1Ik8TSOO8AZl2bXmcszFw7syHm01GMJzFF3BQd2",
+      "type": "bibliotecario",
+      "id": 2
+    },
+    {
+      "email": "cat4331@gmail.com",
+      "password": "$2a$10$z01GbUMyp4mGLWsWBfyCEOOh0ZYK4gtK1p79/LibA9.WtckcPKJ7.",
+      "type": "user",
+      "id": 3
+    }
+  ],
+  "libros": [
+    {
+      "id": 1,
+      "title": "El resplandor",
+      "author": "Stephen King"
+    },
+    {
+      "id": 2,
+      "title": "IT",
+      "author": "Stephen King"
+    },
+    {
+      "id": 3,
+      "title": "El Exorcista",
+      "author": "William Peter Blatty"
+    },
+    {
+      "id": 4,
+      "title": "Cementerio de animales",
+      "author": "Stephen King"
+    },
+    {
+      "id": 5,
+      "title": "Carrie",
+      "author": "Stephen King"
+    },
+    {
+      "id": 6,
+      "title": "Frankenstein",
+      "author": "Mary Shelley"
+    }
+  ]
+}

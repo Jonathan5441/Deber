@@ -1,0 +1,27 @@
+<h1>GESTION LIBROS</h1>
+
+<div class="container">
+    <div class="col-md-12">
+      <div class="row">
+        <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Autor</th>
+        </tr>
+        </thead>
+        <tbody>
+          @for(libro of libros; track libro){
+          <tr>
+            <td>{{libro.title}}</td>
+            <td>{{libro.author}}</td>
+            <td>
+                <button class="btn btn-danger" (click)="eliminar(libro.id)">Eliminar</button>
+            </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+        </div>
+    </div>
+</div>
